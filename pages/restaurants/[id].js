@@ -72,7 +72,7 @@ const RestaurantPage = ({restaurantData}) => {
                 }
             </Col>
             <Col width="3">
-                < Button label="Order Takeout" />
+                <Button label="Order Takeout" />
                 <Button label="Make a Reservation" />
 
                     {streetAddress && city && state && zipCode &&

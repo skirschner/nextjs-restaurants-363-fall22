@@ -6,6 +6,7 @@ let cx = classNames.bind(styles);
 const Col = ({children, width }) => {
     let columnClasses = cx ({
         col: true,
+        [`col-${width}`] : width
     })
     return <div className={columnClasses}>{children}</div>
 }
