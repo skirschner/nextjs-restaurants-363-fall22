@@ -5,7 +5,7 @@ import styles from './MenuItem.module.scss'
 
 const MenuItem = ({ data }) => {
     const { description, image, price, title } = data;
-    return <article claaName={StyleSheet.menuItem}>
+    return <article claaName={styles.menuItem}>
         <Image
             src={image.sourceUrl}
             alt={image.altText}

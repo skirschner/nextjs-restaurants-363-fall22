@@ -57,7 +57,7 @@ const RestaurantPage = ({restaurantData}) => {
             halfHeight
         />
         <Container>
-        <Row>
+            <Row>
             <Col width="9">
                 <Heading level="1" marginBottom="1">{title}</Heading>
                 <Paragraph marginBottom="1">{excerpt}</Paragraph>

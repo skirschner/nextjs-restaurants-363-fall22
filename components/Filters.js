@@ -11,7 +11,7 @@ const Filters = ({
         return category.node.name;
     });
     return <div className={styles.filterBar}>
-        <label>Filters: </label>
+        <Label>Filters: </Label>
         <Select 
             options={filteredOptions}
             changeHandler={setActiveCategory}
